@@ -1,0 +1,43 @@
+.festival-list {
+margin-top: 5%;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.festival-description {
+  font-size: 1.2em;
+}
+
+.festival-tile {
+  padding: 3%; 
+  max-width: 500px;
+  min-width:200px;
+  border: 2px solid #cccccc; 
+  border-radius: 8px; 
+  transition: box-shadow 0.3s ease, transform 0.3s ease; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.festival-tile:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transform: translateY(-4px); 
+  outline: 5px solid #004CA3;
+}
+
+.festival-tile:focus-within {
+  outline: 2px solid #004CA3; 
+  outline-offset: 4px; 
+}
+
+.festival-name {
+  color: #004CA3; 
+}
+
+.festival-description {
+  margin-top: 1%;
+}

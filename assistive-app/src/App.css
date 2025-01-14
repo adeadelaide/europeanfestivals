@@ -1,0 +1,114 @@
+.App {
+  width: 100%;
+  margin-bottom: 5%;
+  text-align: left;
+  line-height: 1.6;
+  color: #333333;
+  font-size: max(1.2em, 16px);
+}
+
+.navigation-bar {
+  color: #fff;
+  background: #004CA3;
+}
+
+.navigation-list {
+  display: flex;
+  list-style: none;
+}
+
+.navigation-list li {
+  padding: 1.5%;
+  margin: 0% 2%;
+}
+
+.navigation-list a {
+  padding: 0.3em;
+  color: #fff;
+  font-weight: 600;
+}
+
+.navigation-list a:hover,
+.navigation-list a:focus {
+  color: #004CA3;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+main {
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 2%;
+}
+
+img {
+  width: 100%;
+  min-width: 200px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: max(1.2em, 16px);
+  font-weight: 600;
+  background-color: #004CA3;
+  color: #ffffff; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover,
+button:focus {
+  background-color: #ffffff; 
+  outline: 2px solid #004CA3;
+  color: #004CA3;
+}
+
+.form-group {
+  margin-bottom:1%;
+  width: 70%;
+}
+
+input,
+textarea {
+  font-size: max(1.2em, 16px);
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #cccccc; 
+  border-radius: 5px;
+}
+
+input:focus,
+textarea:focus {
+  outline: 2px solid #004CA3;
+}
+
+label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+  font-size: max(1.2em, 16px);
+}
+
+h1 {
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+h2 {
+  margin-top: 3%;
+  margin-bottom: 1%;
+}
+
+h3 {
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+a {
+  color: #004CA3;
+  font-size: max(1.2em, 16px);
+}
